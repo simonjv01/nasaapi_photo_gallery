@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-NASA_API_KEY = "c1P1OVFnGuP1KrgizeBOgIYZcSeS6l7W7sgsNIPK"
+NASA_API_KEY = ""
 BASE_URL = "https://api.nasa.gov/planetary/apod"
 
 @app.route('/')
